@@ -2,11 +2,6 @@
 
 <!-- Tawakalitu here  -->
 
----
-# API
-theme: Seriph
----
-
 # What is API?
 
 API means Application Programming Interface.
@@ -16,7 +11,6 @@ API are are responsible for taking in requests, talking to the system (server), 
 
 ---
 
-
 # Why Do We Use APIs?
 
 - To reuse code or services (like Google Maps, Payment Gateways, etc.)
@@ -24,11 +18,6 @@ API are are responsible for taking in requests, talking to the system (server), 
 - To access features or data from other apps (e.g., weather, news, etc.)
 
 - To connect frontend to backend in web development
-
----
-
-transition: slide-up
-level: 2
 
 ---
 
@@ -70,10 +59,6 @@ A Web API is a way for a website or app to get or send data from/to a server usi
 
 ---
 
-transition: slide-up
-level: 2
-
----
 
 # Code Example: Using a Web API (JavaScript + fetch)
 
@@ -121,67 +106,7 @@ Most API often use:
 
 ---
 
-# Here is a Simple App To Solidify Our Knowledge
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Age Guesser</title>
-  <style>
-    body {
-      font-family: sans-serif;
-      text-align: center;
-      padding: 40px;
-    }
-    input {
-      padding: 10px;
-      width: 200px;
-    }
-    button {
-      padding: 10px 15px;
-      margin-left: 10px;
-    }
-    #result {
-      margin-top: 20px;
-      font-size: 1.2em;
-    }
-  </style>
-</head>
-<body>
 
-  <h1>Guess the Age by Name</h1>
-  <input type="text" id="nameInput" placeholder="Enter a name" />
-  <button onclick="guessAge()">Guess Age</button>
-  <div id="result"></div>
 
-<!--JavaScript code starts here-->
-<br>
-<br>
 
-  <script>
-    function guessAge() {
-  const name = document.getElementById('nameInput').value;
-
-  if (!name) {
-    document.getElementById('result').innerText = 'Please enter a name.';
-    return;
-  }
-
-  fetch(`https://api.agify.io?name=${name}`)
-    .then(res => res.json())
-    .then(data => {
-      document.getElementById('result').innerText =
-        `The guessed age for ${data.name} is ${data.age} years old (based on ${data.count} records).`;
-    })
-    .catch(error => {
-      console.error('Error:', error);
-      document.getElementById('result').innerText = 'Something went wrong.';
-    });
-}
-
-  </script>
-</body>
-</html>
-
-## Thank You
