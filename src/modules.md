@@ -22,20 +22,22 @@
 - Classes
 
 ## Importing
-
+```ts {all|5|7|7-8|10|all} twoslash
+// main.js
 import { greet } from './greet.js';
 
 console.log(greet('Alice')); // Hello, Alice!
 
+```
 
 ## Exporting 
-
+```ts {all|5|7|7-8|10|all} twoslash
 
 // greet.js
-
 export function greet(name) {
   return `Hello, ${name}!`;
 }
+```
 
 
 
