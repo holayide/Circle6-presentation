@@ -56,15 +56,15 @@ src: ./src/modules.md
 ---
 
 ---
-src: ./src/intro.md 
+src: ./src/bundlers.md
 ---
 
 ---
-src: ./src/react-fundamental.md 
+src: ./src/intro.md
 ---
 
 ---
-src: ./src/bundlers.md 
+src: ./src/react-fundamental.md
 ---
 
 <style>
