@@ -4,10 +4,6 @@
 
 
 <!-- Uzoma here  -->
----
-transition: fade-out
----
-
 # What is Module?
 
 Module is just a separate file that contains some javascript codes like functions, variables etc, that you can reuse in other files.

@@ -38,5 +38,7 @@ promise
 ### ❓Why Use Promises?
 
 - Better error handling
+
 - Avoids callback hell - before we use nested callbacks
+
 - Promises make async code cleaner and easier to manage

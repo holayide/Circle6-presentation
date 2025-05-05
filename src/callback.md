@@ -1,16 +1,19 @@
-# Callback Function
-# Introduction to Callbacks
+# 🚀Callback Functions
 
-A **callback** is a function passed as an argument to another function.  
-It's often used to handle **asynchronous operations** like API calls, timers, or events.
+- A **callback** is a function passed into another function as an argument. 
+- Commonly used to handle **asynchronous operations** like API calls, timers, or event handling.
 
 
 ## 📦 Why Use Callbacks?                         
-- Handle async code in a structured way              
-- Ensure a task runs *after* something else finishes 
-- Enable flexible and reusable functions  
+- Run code after a task finishes (e.g., after a response).
 
-## 💡 Basic Example
+- Helps write non-blocking, cleaner async code.
+
+- Makes functions more flexible and reusable. 
+
+---
+
+## ✏️ Examples:
 ```js
 function greet(name, callback) {
   console.log("Hi " + name);
@@ -20,6 +23,7 @@ function greet(name, callback) {
 function sayBye() {
   console.log("Goodbye!");
 }
+
 greet("Ada", sayBye);
 // Output:
 // Hi Ada
