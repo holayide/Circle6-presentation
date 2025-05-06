@@ -17,7 +17,6 @@
 // Change text in a heading
 document.getElementById("title").textContent = "Welcome!";
 ```
-yarn 
 ---
 
 ### 🟨 BOM – Browser Object Model
