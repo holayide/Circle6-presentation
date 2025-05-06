@@ -5,7 +5,7 @@
 - Modules use **export** and **import** statements.
 - Helps split code into reusable, organized chunks.
 
-### Types of modules
+### Ways to import/export within modules
 
 - Named Export/Import - e.g `import { name, func } from './module'`;
 - Default Export/Import - e.g `export default function() {}`;
