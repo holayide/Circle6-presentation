@@ -1,5 +1,6 @@
 ---
 theme: seriph
+# theme: default
 background: https://cover.sli.dev
 title: Welcome to Slidev
 info: |
@@ -12,11 +13,43 @@ drawings:
   persist: false
 transition: slide-left
 mdc: true
+
 ---
+<style>
+  h1 {
+    padding-bottom: .3rem;
+    background-color: #2B90B6;
+    background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+  }
 
-# Welcome to Slidev
+  h2 {
+    color: #2B90B6;
+    margin-bottom: 1.8rem;
+    font-family: 'Inter', sans-serif;
+  }
 
-Presentation slides for developers
+  h3 {
+    margin-top: 1.3rem;
+    color: #2B90B6;
+  }
+
+  span {
+    font-size: 1rem
+  }
+
+  p,li,pre {
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 0.05em;
+  }
+</style>
+
+# Welcome to Circle 6 Presentation
+
 
 <div @click="$slidev.nav.next" class="mt-12 py-1" hover:bg="white op-10">
   Press Space for next page <carbon:arrow-right />
@@ -66,17 +99,3 @@ src: ./src/intro.md
 ---
 src: ./src/react-fundamental.md
 ---
-
-<style>
-h1 {
-  background-color: #2B90B6;
-  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-}
-</style>
-
-

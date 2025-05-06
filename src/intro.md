@@ -1,12 +1,12 @@
-# React JS: Introduction & Overview
+# 🚀React JS: Introduction & Overview
 
-- React is a **JavaScript library** created by Facebook and is used to build **fast, interactive user interfaces**.
-- It’s one of the most used JavaScript libraries and ideal for **single-page applications** (SPAs).
+- React is a **JavaScript library** created by Facebook and is used to build **fast, interactive user interfaces** especially single-page applications (SPAs).
 
  **Components in React**
 
-- React apps are made up of **components** — independent and reusable UI pieces combined to build complex interfaces.
-- Every app starts with a **root component**, that holds all other components.
+      * must return a single root element (must be wrapped in `<div> or <></>`)
+      * all tags must be closed (e.g ,`<input>` )
+      * camelcase should be used for most of the things(e.g, `className`)
 
 🔧 A React component is just a **JavaScript function** that returns **JSX**.
   - **JSX** is a syntax extension that lets you write HTML-like code inside JavaScript.
