@@ -1,4 +1,4 @@
-# 🚀Broswer Environments (DOM, BOM, CSSOM)
+# 🚀Broswer Environment(DOM, BOM, CSSOM)
 
 ### 🟦 DOM – Document Object Model
 
