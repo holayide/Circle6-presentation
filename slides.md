@@ -65,6 +65,10 @@ mdc: true
 </div>
 
 ---
+src: ./src/toc.md 
+---
+
+---
 src: ./src/dom.md 
 ---
 
