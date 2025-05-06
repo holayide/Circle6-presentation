@@ -32,13 +32,13 @@ element.addEventListener("event", function);
 </script>
 
 
-<!-- Key Press Event -->
- <input type="text" id="nameInput" placeholder="Type something" />
+<!-- Mouseover Event -->
+<input type="text" id="nameInput" placeholder="Hover over me" />
 
 <script>
   document.getElementById("nameInput")
-    .addEventListener("keydown", function (event) {
-      console.log("Key pressed:", event.key);
+    .addEventListener("mouseover", function () {
+      console.log("Mouse is over the input!");
     });
 </script>
 ```

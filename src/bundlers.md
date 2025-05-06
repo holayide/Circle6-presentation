@@ -20,12 +20,11 @@ browser's module system.
 
 ### 🔹 Popular Bundlers
 
-- Webpack – Flexible, most commonly used for JavaScript apps
+- Webpack
 
-- Parcel – Zero-config bundler, good for small projects
+- Parcel 
 
-- Rollup – Focused on efficient bundling for libraries
-
+- Vite
 
 ### ✏️ Example:  (vite install)
 
