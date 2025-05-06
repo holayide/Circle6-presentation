@@ -22,7 +22,7 @@
 
 - You send a request to an API URL (called an endpoint)
 - The server processes it
-- You get a response (usually in JSON format)
+- You get a response
 
 ### Example:
 
@@ -33,13 +33,11 @@ fetch('https://api.agify.io?name=Tawakalt')
 
 // Response
 // {
-//   "name": "Maryam",
+//   "name": "Tawakalt",
 //   "age": 22,
 //   "count": 12000
 // }
 ```
-
-Tools: Postman, RapidAPI et.c
 
 
 

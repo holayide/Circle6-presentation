@@ -39,8 +39,6 @@ affected parts of the real DOM, making the update efficient and fast.
 
 -  **Fast rendering** using the Virtual DOM improves performance.
 
--  **Modular architecture** makes code easier to maintain and scale.
-
--  Backed by **a large community** and used by companies like Facebook, Instagram, Netflix.
+-  Backed by **a large community**
 
 -  Works well with modern development tools and libraries.
