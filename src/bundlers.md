@@ -8,7 +8,13 @@ Bundlers are tools that combine and optimize multiple files (JavaScript, CSS, im
 
 ### 🔹 Why Use Bundlers?
 
-Since ES modules in browsers are not fully supported yet and have several limitations, build tools help resolve these issues. For example, they allow us to handle things like importing media files, which isn’t natively supported by the browser's module system.
+Since ES modules in browsers are not fully supported yet and have several 
+
+limitations, build tools help resolve these issues. For example, they allow us to 
+
+handle things like importing media files, which isn’t natively supported by the 
+
+browser's module system.
 
 ---
 

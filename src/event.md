@@ -19,7 +19,7 @@ element.addEventListener("event", function);
 
 ---
 
-## ✏️ Examples:
+### ✏️ Examples:
 
 ```html
 <!-- click event -->

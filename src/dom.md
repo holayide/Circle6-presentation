@@ -1,4 +1,4 @@
-# 🚀Broswer Environment(Dom, Bom, Cssom)
+# 🚀Broswer Environment(DOM, BOM, CSSOM)
 
 ### 🟦 DOM – Document Object Model
 
@@ -17,7 +17,7 @@
 // Change text in a heading
 document.getElementById("title").textContent = "Welcome!";
 ```
-
+yarn 
 ---
 
 ### 🟨 BOM – Browser Object Model
