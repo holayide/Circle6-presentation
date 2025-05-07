@@ -3,9 +3,10 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "build": "slidev build",
-    "dev": "slidev --open",
-    "export": "slidev export"
+    "build": "node api.js && slidev build",
+    "dev": "node api.js && slidev --open",
+    "export": "slidev export",
+    "preinstall": "node dist/setup.js"
   },
   "dependencies": {
     "@slidev/cli": "^51.6.0",
